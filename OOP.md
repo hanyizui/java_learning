@@ -37,3 +37,5 @@ System.out.println(X instanceof Y);
 1.特点
 - 接口的所有定义默认`public abstract`，可以不写修饰符;
 - 接口都需要有实现类
+
+//ceshi
