@@ -44,10 +44,39 @@ System.out.println(X instanceof Y);
 - 常量：修饰`public static final`
 
 ### 内部类
- 1.定义方法
+1.定义方法
 - `Outer.Inner inner = outer.new Inner();`
 
- 2.特点：
+2.特点：
 - 一个java类中可以有多个class类，但只能有一个public class；
 
 ### 异常
+1.异常分类
+![img.png](img.png)
+
+2.异常关键字
+- try
+- catch
+- finally
+- throw
+- throws
+
+3.捕获异常
+```java
+try{
+    //可能发生异常的代码
+}catch(ExceptionName varName){
+    //若捕获则执行
+}finally{
+    //无论是否捕获均执行
+}
+```
+
+4.抛出异常
+```java
+public void func(var...) throws ExceptionName{
+    throw new ExceptionName();
+        }
+```
+
+5.自定义异常
